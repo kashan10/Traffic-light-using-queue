@@ -5,13 +5,13 @@ public class Queue{
 		
 		//Circular Queue
 		int size;
-		int arr;
+		int[] arr;
 		
 		Queue(int s)
 		{
 			front = rear = -1;
 			size =s;
-			arr = new int(s);
+			arr = new int[s];
 			
 		}
 		
