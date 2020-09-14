@@ -1,4 +1,4 @@
-public Queue{
+public class Queue{
 	
 		//Initialize front and rear
 		int rear,front;
